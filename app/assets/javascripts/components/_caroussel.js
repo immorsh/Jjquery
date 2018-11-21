@@ -65,3 +65,12 @@ slideImg();
 
 
 });
+<<<<<<< HEAD
+=======
+
+$(document).ready(function(){
+sliderEvents();
+//startSlider();
+
+});
+>>>>>>> last commit

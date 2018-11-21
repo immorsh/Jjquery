@@ -1,8 +1,15 @@
 <div id="caroussel" >
+<<<<<<< HEAD
   <ul>
     <% @tasks.each do |task|  %>
         <% unless task.image.nil? %>
           <img src=<%=task.image %>/>
+=======
+  <ul class="carousel__list">
+    <% @tasks.each do |task|  %>
+        <% unless task.image.nil? %>
+          <li><img src=<%=task.image %>/></li>
+>>>>>>> last commit
         <% end %>
     <% end %>
   </ul>
