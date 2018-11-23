@@ -1,0 +1,11 @@
+<u><b>Object </b></u>:
+<br />
+<%= @email.object %>
+<br />
+<br />
+<u><b>email:</b></u>
+<br />
+<%= @email.body %>
+<br/>
+<br/>
+<%= link_to "Delete", email_path(@email.id), remote: true, method: :delete %>
